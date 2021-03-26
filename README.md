@@ -1,6 +1,4 @@
-######
-foxBMS
-######
+# foxBMS
 
 foxBMS is a free, open and flexible development environment to design battery
 management systems. It is the first modular open source BMS development
@@ -10,14 +8,13 @@ The foxconda environment: This environment provides all the tools necessary
 to generate the documentation, compile the code for the MCUs and flash the
 generated binaries on the MCUs (e.g., ``Python``, ``git``, ``GCC``). foxconda
 can be downloaded from
-`iisb-foxbms.iisb.fraunhofer.de/foxbms <https://iisb-foxbms.iisb.fraunhofer.de/foxbms/>`_.
+[iisb-foxbms.iisb.fraunhofer.de/foxbms](https://iisb-foxbms.iisb.fraunhofer.de/foxbms/).
 
 The starting point to get foxBMS is the foxBMS repository at
-https://github.com/foxBMS/foxbms, which
+[https://github.com/foxBMS/foxbms](https://github.com/foxBMS/foxbms), which
 contains all files for the foxBMS project.
 
-foxBMS Repository
-=================
+## foxBMS Repository
 
 - In ``foxbms\documentation`` the configuration of the doxygen documentation
   for the primary and secondary MCU can be found.
@@ -30,10 +27,10 @@ foxBMS Repository
   ``foxbms\tools``.
 
 A generated version of the Sphinx documentation can be found at
-`docs.foxbms.org <https://docs.foxbms.org>`_. It explains the structure of the
-foxBMS hardware, how to install the foxconda environment and how to use
-foxconda to compile and flash the sources.
+[iisb-foxbms.iisb.fraunhofer.de/foxbms/docs/latest/](https://iisb-foxbms.iisb.fraunhofer.de/foxbms/docs/latest/).
+It explains the structure of the foxBMS hardware, how to install the foxconda
+environment and how to use foxconda to compile and flash the sources.
 
 ----
 
-`foxbms.org <https://foxbms.org/>`_
+[foxbms.org](https://foxbms.org/)
