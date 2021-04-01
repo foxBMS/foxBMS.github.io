@@ -1,35 +1,31 @@
 # foxBMS
 
-foxBMS is a free, open and flexible development environment to design battery
-management systems. It is the first modular open source BMS development
-platform.
+foxBMS is a free, open and flexible research and development environment for the
+design of Battery Management Systems (BMS). Above all, it is the first
+universal hardware and software platform providing a fully open source BMS
+development platform.
 
-The foxconda environment: This environment provides all the tools necessary
-to generate the documentation, compile the code for the MCUs and flash the
-generated binaries on the MCUs (e.g., ``Python``, ``git``, ``GCC``). foxconda
-can be downloaded from
-[iisb-foxbms.iisb.fraunhofer.de/foxbms](https://iisb-foxbms.iisb.fraunhofer.de/foxbms/).
+## foxBMS 2
 
-The starting point to get foxBMS is the foxBMS repository at
-[https://github.com/foxBMS/foxbms](https://github.com/foxBMS/foxbms), which
-contains all files for the foxBMS project.
+- The latest version foxBMS 2 documentation is found at
+  https://iisb-foxbms.iisb.fraunhofer.de/foxbms/gen2/docs/html/latest
+- Previous versions of the foxBMS 2 documentation are found at
+  https://iisb-foxbms.iisb.fraunhofer.de/foxbms/gen2/docs/html/.
+- Links to specific version are permalinks (e.g., for foxBMS 2 v1.0.0 it is
+  https://iisb-foxbms.iisb.fraunhofer.de/foxbms/gen2/docs/html/v1.0.0/)
+- Sources are available at
+  [github.com/foxBMS/foxbms-2](https://www.github.com/foxBMS/foxbms-2)
 
-## foxBMS Repository
+## foxBMS 1
 
-- In ``foxbms\documentation`` the configuration of the doxygen documentation
-  for the primary and secondary MCU can be found.
-- The software for the MCUs is found in ``foxbms\embedded-software``. This
-  includes the Hardware Abstraction Layer (HAL), the real-time operating system
-  FreeRTOS and the BMS application itself.
-- The layout and schematic files for the foxBMS hardware are found in the
-  ``foxbms\hardware``.
-- The build toolchain and other tools related to foxBMS are found in
-  ``foxbms\tools``.
-
-A generated version of the Sphinx documentation can be found at
-[iisb-foxbms.iisb.fraunhofer.de/foxbms/docs/latest/](https://iisb-foxbms.iisb.fraunhofer.de/foxbms/docs/latest/).
-It explains the structure of the foxBMS hardware, how to install the foxconda
-environment and how to use foxconda to compile and flash the sources.
+- The latest version of the foxBMS 1 documentation is found at
+  https://iisb-foxbms.iisb.fraunhofer.de/foxbms/gen1/docs/html/latest/
+- Previous versions of the foxBMS 1 documentation are found at
+  https://iisb-foxbms.iisb.fraunhofer.de/foxbms/gen1/docs/html/.
+- Links to specific version are permalinks (.e.g., for foxBMS 1 v1.6.7 it is
+  https://iisb-foxbms.iisb.fraunhofer.de/foxbms/gen1/docs/html/v1.6.7/)
+- Source are available at
+  [github.com/foxBMS/foxbms](https://www.github.com/foxBMS/foxbms)
 
 ----
 
